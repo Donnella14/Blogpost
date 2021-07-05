@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-    <title>Natflower</title>
+    <title>BlogpostNatflower</title>
     <link href="./CSS/style.css" rel="stylesheet">
 
 </head>
@@ -11,16 +11,37 @@
 
        <p>Natflower</p>
        <ul>
-           <li><a href="#">Home</a></li>
-           <li><a href="#">Shop</a></li>
-           <li><a href="#">Services</a></li>
            <li><a href="#">About</a></li>
+           <li><a href="#" onclick="document.getElementById('showmodal').style.display='block'">Sign in</a></li>
+           <li><a href="#">Shop</a></li>
+           <li><a href="#">Home</a></li>
 
 
        </ul>
 
     </nav>
+    <div id="showmodal" class="showmodal">
+        <div class="stylemodal">
+            <span id="close" onclick="document.getElementById('showmodal').style.display='none'" class="close" title="close Modal">X</span>
+            <h1> Login Form</h1>
+            <label>Username</label>
+            <input type="text" placeholder="username" name="user"  ><br>
+            <label>Password</label>
+            <input type="password" placeholder="password" name="userp"  ><br>
+            <button type="submit">Login</button><br>
+            <label>
+                <input type="checkbox" checked="checked" name="remember">
+                Rembember me.
+            </label>
+
+
+
+        </div>
+
+    </div>
+    
     <div class="row">
+        
         <div class="cat">
             <p>Categories</p>
             
@@ -30,8 +51,69 @@
 
         </div>
         <div class="text">
-            <img src="./Assets/image.jpg">
-            <p>Find the perfect bouquet</p>
+            <div class="al">
+                <form>
+                    <input type="text" placeholder="Search" name="search">
+
+                </form>
+            
+                <h1>Find the perfect bouquet</h1>
+            </div>
+                <div class="card">
+                    <div class="card-content">
+                        <img src="https://images.pexels.com/photos/736230/pexels-photo-736230.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="pic">
+                        <div class="pext">
+                        <h2>Flower</h2>
+                        <p>Before you buy a bouquet﻿, check out these flower meanings for popular blooms like roses, tulips, lilies, and peonies</p>
+                        <a href="./Pages/read.html">Read more</a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <img src="https://i.pinimg.com/originals/11/2b/74/112b746a2182417b2a947d949798c968.jpg" class="pic">
+                        <div class="pext">
+                        <h2>Flower</h2>
+                        <p>Before you buy a bouquet﻿, check out these flower meanings for popular blooms like roses, tulips, lilies, and peonies</p>
+                        <a href="#">Read more</a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <img src="https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510__340.jpg" class="pic">
+                        <div class="pext">
+                        <h2>Flower</h2>
+                        <p>Before you buy a bouquet﻿, check out these flower meanings for popular blooms like roses, tulips, lilies, and peonies</p>
+                        <a href="#">Read more</a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <img src="https://static.toiimg.com/photo/75579988/75579988.jpg?v=3" class="pic">
+                        <div class="pext">
+                        <h2>Flower</h2>
+                        <p>Before you buy a bouquet﻿, check out these flower meanings for popular blooms like roses, tulips, lilies, and peonies</p>
+                        <a href="#">Read more</a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/close-up-of-red-rose-royalty-free-image-672727875-1546363000.jpg?crop=0.384xw:0.719xh;0.306xw,0.242xh&resize=480:*" class="pic">
+                        <div class="pext">
+                        <h2>Flower</h2>
+                        <p>Before you buy a bouquet﻿, check out these flower meanings for popular blooms like roses, tulips, lilies, and peonies</p>
+                        <a href="#">Read more</a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <img src="https://i.pinimg.com/originals/e1/1d/1a/e11d1ac43037be8650a68f8cd4c96e62.jpg" class="pic">
+                        <div class="pext">
+                        <h2>Flower</h2>
+                        <p>Before you buy a bouquet﻿, check out these flower meanings for popular blooms like roses, tulips, lilies, and peonies</p>
+                        <a href="#">Read more</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            
+
+           
             
 
         </div>
