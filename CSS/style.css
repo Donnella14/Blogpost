@@ -15,12 +15,16 @@ nav img{
 nav ul{
     list-style: none;
     margin-left: 600px;
+    margin-top: 2vh;
 
 }
 nav ul li{
     float: right;
     padding: 50px;
 
+}
+nav ul li a{
+    padding: 5vh 1vh;
 }
 nav p{
     display: inline;
@@ -36,15 +40,21 @@ nav p{
   
     
 }
+.text{
+    background-image: url("../Assets/image.jpg");
+    width: 100%;
+    background-size: cover;
+    
+    
 
-.text img{
-    height: 80vh;
-    width: 161.3vh;
 }
+
 
 .row{
     display: flex;
     height:80vh;
+    
+    
 }
 li a{
 
@@ -54,10 +64,10 @@ li a{
 
 }
 .cat li a{
-    margin: 50px;
-    margin-top: 40px;
+   
+    padding: 10px 60px ;
+    /*background-color: blue;*/
 
-    padding: 100px 10px ;
 
 }
 .cat li{
@@ -65,10 +75,11 @@ li a{
     background-color: aqua;
 }
 
+
 .text p{
-    margin: -20vh 70vh;
-    font-size: 3vh;
-    font-weight: bold;
+    
+    /*background-color: greenyellow;*/
+    font-size: 2.3vh;
     font-family:'Times New Roman', Times, serif
 }
 .cat p{
@@ -84,4 +95,119 @@ a:hover{
     background-color: rgb(219, 170, 211);
     width: 10vh;
     
+}
+
+.card{
+    /*background-color: blue;*/
+    height: 55vh;
+    width: 120vh;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 18vh;
+    margin-left: 20vh;
+ 
+}
+.card-content{
+    height: 16vh;
+    width: 50vh;
+    /*background-color: hotpink;*/
+    margin: 10px;
+    margin-left: 50px;
+    display: flex;
+
+
+}
+.card-content img{
+    /*background-color: honeydew;*/
+    height: 120px;
+    width: 80px;
+}
+form{
+    
+    width: 5vh;
+    /*background-color: lightseagreen;*/
+    margin-left: 60vh;
+    margin-top: -3vh;
+   
+}
+form input{
+    /*background-color: magenta;*/
+    height: 4vh;
+    width: 30vh;
+    border-radius: 5px;
+}
+.al{
+    /*background-color: mediumblue;*/
+    padding-top: 4vh;
+}
+.al h1{
+    /*background-color: mintcream;*/
+    margin-top: -5vh;
+    margin-left: 3vh;
+}
+.card-content:hover{
+    background-color: rgba(26, 25, 25, 0.219);
+    cursor: pointer;
+}
+.card-content2{
+    
+    height: 60vh;
+    width: 100vh;
+    margin-top: 10vh;
+    margin-left: 35vh;
+}
+.text2{
+    background-color: burlywood;
+    height: 80vh;
+    width: 500vh;
+}
+.card-content2 img{
+    height: 30vh;
+    width: 30vh;
+    margin-left: 35vh;
+}
+.pext2{
+    margin-top: 5vh;
+}
+.pext2 h2{
+    text-align: center;
+}
+.pext2 P{
+    font-size: 3vh;
+}
+.showmodal{
+    background-color: rgba(15, 14, 14, 0.76);
+    width: 100%;
+    height: 80vh;
+    position: fixed;
+    display: none;
+
+    
+
+}
+.stylemodal{
+    background-color: white;
+    height: 60vh;
+    width: 45vh;
+    margin-top: 10vh;
+    margin-left: 80vh;
+    
+    
+
+}
+.close{
+    cursor: pointer;
+    margin-left: 43vh;
+    font-weight: bold;
+}
+.stylemodal h1{
+    text-align: center;
+}
+.stylemodal label{
+    margin: 0vh 5vh;
+    font-weight: bold;
+    
+}
+.stylemodal button{
+    margin-left: 10vh;
 }
