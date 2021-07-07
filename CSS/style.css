@@ -25,11 +25,13 @@ nav ul li{
 }
 nav ul li a{
     padding: 5vh 1vh;
+    font-size: 2.5vh;
 }
 nav p{
     display: inline;
     margin-top: 50px;
     font-size: 4vh;
+    
 }
 
 .cat{
@@ -41,7 +43,7 @@ nav p{
     
 }
 .text{
-    background-image: url("../Assets/image.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../Assets/image.jpg");
     width: 100%;
     background-size: cover;
     
@@ -65,27 +67,35 @@ li a{
 }
 .cat li a{
    
-    padding: 10px 60px ;
-    /*background-color: blue;*/
+    padding: 10px 15px ;
+    background-color: rgb(255, 244, 245);
+    font-size: 4vh;
+    padding-right: 3vh;
 
 
 }
 .cat li{
     margin: 10vh;
-    background-color: aqua;
+    /*background-color: rgb(255, 244, 245);*/
+    padding: 1vh;
+
+    
 }
 
 
 .text p{
     
     /*background-color: greenyellow;*/
-    font-size: 2.3vh;
+    font-size: 2.2vh;
     font-family:'Times New Roman', Times, serif
+    
+
+
 }
 .cat p{
     text-align: center;
     margin: 40px;
-    font-size: 4vh;
+    font-size: 5vh;
 }
 a:hover{
     background-color: rgb(219, 170, 211);
@@ -132,9 +142,9 @@ form{
 }
 form input{
     /*background-color: magenta;*/
-    height: 4vh;
-    width: 30vh;
-    border-radius: 5px;
+    height: 5vh;
+    width: 40vh;
+    border-radius: 20px;
 }
 .al{
     /*background-color: mediumblue;*/
@@ -144,9 +154,10 @@ form input{
     /*background-color: mintcream;*/
     margin-top: -5vh;
     margin-left: 3vh;
+    color: rgb(255, 244, 245); ;
 }
 .card-content:hover{
-    background-color: rgba(26, 25, 25, 0.219);
+    background-color: rgba(10, 10, 10, 0.541);
     cursor: pointer;
 }
 .card-content2{
@@ -211,3 +222,40 @@ form input{
 .stylemodal button{
     margin-left: 10vh;
 }
+.card-content p{
+    color: rgb(255, 244, 245);
+    margin-left: 2vh;
+   
+}
+.event{
+    /*background-color: yellow;*/
+    margin-right: 6vh;
+    margin: 2vh;
+    padding: 5vh;
+    width: 10vh;
+}
+h2{
+    color: rgb(255, 244, 245);
+    margin-left: 2vh;
+}
+.card-content a{
+    margin-left: 2vh;
+    color: rgb(255, 244, 245);
+
+
+}
+.rea{
+    color: black;
+}
+.text2 .red{
+    color: black;
+}
+.username{
+    margin: 5vh;
+}
+.password{
+    margin: 5vh;
+}
+
+
+
