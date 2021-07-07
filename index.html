@@ -24,10 +24,14 @@
         <div class="stylemodal">
             <span id="close" onclick="document.getElementById('showmodal').style.display='none'" class="close" title="close Modal">X</span>
             <h1> Login Form</h1>
-            <label>Username</label>
+            <div class="username">
+            <label> Username</label>
             <input type="text" placeholder="username" name="user"  ><br>
+            </div>
+            <div class="password">
             <label>Password</label>
             <input type="password" placeholder="password" name="userp"  ><br>
+        </div>
             <button type="submit">Login</button><br>
             <label>
                 <input type="checkbox" checked="checked" name="remember">
@@ -46,7 +50,7 @@
             <p>Categories</p>
             
             <li><a href="#">Wedding</a></li>
-            <li><a href="#">Event</a></li>
+            <li><a class="event" href="#">Event</a></li>
             <li><a href="#">Gallery</a></li>
 
         </div>
